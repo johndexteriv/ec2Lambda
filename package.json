@@ -1,0 +1,30 @@
+{
+  "name": "ec2lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda Function to query ec2 hosted MongoDb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johndexteriv/ec2Lambda.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "ec2",
+    "mongodb"
+  ],
+  "author": "Dexter Garner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johndexteriv/ec2Lambda/issues"
+  },
+  "homepage": "https://github.com/johndexteriv/ec2Lambda#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  }
+}
